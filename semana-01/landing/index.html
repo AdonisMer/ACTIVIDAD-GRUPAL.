@@ -23,15 +23,26 @@
     <main> 
         <section id="hero">  
             <h1> Venta global de videojuegos de distintos genero </h1>
-            En esta pagina se venderan a nivel global diferentes <strong>videojuegos</strong> ya sean digitales o fisicos.
+            <p>En esta pagina se venderan a nivel global diferentes <strong>videojuegos</strong> ya sean digitales o fisicos.</p>
             <a href="#equipo">Conoce a nuestro equipo</a>
-            <picture><img src="https://uvejuegos.com/img/caratulas/56708/peque_BF1-PC-B.jpg"></picture>
+            
+            <picture>
+                <source media="(max-width: 768px)" srcset="https://picsum.photos/800/400">
+                <source media="(min-width: 769px)" srcset="https://picsum.photos/1600/600">
+                <img src="https://picsum.photos/800/400" alt="Imagen de videojuegos en venta">
+            </picture>
+
         </section>
         <section id="problema">
             <h2> Problema </h2>
         <p>En la actualidad <mark>no existen</mark> sitios webs que vendan videojuegos globalmente tanto <mark>fisicos como digitales.</mark></p>
         Ademas no todos los sitios ofrecen ventas de copias de videojuegos que han dejado de producirse.
-        <blockquote> Anteriormente habia adquirido una copia de un videojuego que no esta ya en produccion, el caset me salio defectuoso con fallos en lectura<cite> Usuario premium</cite> </blockquote>
+
+        <blockquote>
+            Anteriormente habia adquirido una copia...
+        </blockquote>
+        <cite>Usuario premium</cite>
+    
         </section>
         <section id="solucion">
             <h2> Solucion </h2>
@@ -39,23 +50,34 @@
             <article><h3> Precios accesibles </h3> Nuestros precios estan adaptados para todo tipo de clientes y su economia. </article>
             <article><h3> Distintas categorias </h3> Contamos con una gran variedad de juegos pensado para cualquier edad. </article> 
             <article><h3> Garantia  </h3> Contamos con garantia por si tienen algun daño</article> 
-            <video width="500" controls>
+            <video width="500" controls muted>
                 <source src="https://dn710604.ca.archive.org/0/items/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4" type="video/mp4">
+                Tu navegador no soporta video HTML5
             </video>
         </section>
         <section id="metricas"> 
-            <h2> Metricas </h2>
             <dl>
-                <dt> Ingreso general primer año</dt> <dd>$500</dd>
-                <dt> Juego mas vendido</dt> <dd> Battlefield 1 </dd>
-                <dt> Empleado del mes </dt> <dd> Tyrone </dd>
+                <dt>Usuarios primer año</dt>
+                <dd><data value="1500">1500 personas</data></dd>
+
+                <dt>Tiempo de ahorro</dt>
+                <dd><data value="7200">2 horas/semana</data></dd>
+
+                <dt>Mercado</dt>
+                <dd><data value="50000">USD 50.000</data></dd>
             </dl>
         </section>
         <section id="glosario"> 
-            <h2> Glosario </h2> 
-            <dl> <dt> Empresa </dfn><dd></dl>
-            <dl> <dt> Videojuegos </dfn></dl>
-            <dl> <dt> Categorias </dfn></dl>
+            <dl>
+                <dt><dfn>Empresa</dfn></dt>
+                <dd>Organización que ofrece productos o servicios.</dd>
+
+                <dt><dfn>Videojuego</dfn></dt>
+                <dd>Software interactivo de entretenimiento.</dd>
+
+                <dt><dfn>Categoria</dfn></dt>
+                <dd>Clasificación de videojuegos por tipo o género.</dd>
+            </dl>
         </section>
         <section id="faq"> 
             <h2> FAQ </h2>
@@ -65,19 +87,26 @@
         </section>
         <section id="equipo"> 
             <h2> Equipo </h2>
-            <picture><img src="https://i.pinimg.com/236x/ec/e2/b0/ece2b0f541d47e4078aef33ffd22777e.jpg"></picture>
-            <p> Adonis Mero, Driver</p>
-            <picture><img src="https://i.pinimg.com/236x/ec/e2/b0/ece2b0f541d47e4078aef33ffd22777e.jpg"></picture>
-            <p> Tyrone Anchundia, Navigator </p>
-            <picture><img src="https://i.pinimg.com/236x/ec/e2/b0/ece2b0f541d47e4078aef33ffd22777e.jpg"></picture>
-            <p> Anthony Guaman, Researcher </p>
+                <figure>
+                    <img src="https://picsum.photos/200" alt="">
+                    <figcaption>Adonis Mero, Driver</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="https://picsum.photos/200" alt="">
+                    <figcaption>Tyrone Anchundia, Navigator</figcaption>
+                </figure>
+                
+                <figure>
+                    <img src="https://picsum.photos/200" alt="">
+                    <figcaption>Anthony Guaman, Researcher</figcaption>
+                </figure>
         </section>
     </main>
     <footer>   
-        <small>
         <address> micorreo11@gmail.com</address>
-        <time datetime="2026"> 2026 </time>
-        </small>
+        <time datetime="2026"> 2026</time>
+        <small>Copyright</small>
     </footer>
 </body>
 </html>
