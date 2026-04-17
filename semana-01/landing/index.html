@@ -7,13 +7,13 @@
     <title>PRACTICA 1</title>
 </head>
 <body>
-    <header>Prueba de Titulo
-    <nav> 
+    <header>
+    <nav aria-label="Navegación principal"> 
         <ul>
             <li><a href="#hero">Inicio</a></li>
             <li><a href="#problema">Problema</a></li>
-            <li><a href="#solucion">Solucion</a></li>
-            <li><a href="#metricas">Metricas</a></li>
+            <li><a href="#solucion">Solución</a></li>
+            <li><a href="#metricas">Métricas</a></li>
             <li><a href="#glosario">Glosario</a></li>
             <li><a href="#faq">FAQ</a></li>
             <li><a href="#equipo">Equipo</a></li>
@@ -22,83 +22,103 @@
     </header>
     <main> 
         <section id="hero">  
-            <h1> Venta global de videojuegos de distintos genero </h1>
-            <p>En esta pagina se venderan a nivel global diferentes <strong>videojuegos</strong> ya sean digitales o fisicos.</p>
-            <a href="#equipo">Conoce a nuestro equipo</a>
-            
+            <h1>Venta global de videojuegos de distintos géneros </h1>
+            <p>En esta página se venderán a nivel global diferentes <strong>videojuegos</strong>, tanto en formato <strong>digital</strong> y <strong>físico</strong>, ofreciendo a los usuarios una <strong>amplia variedad</strong> de opciones adaptadas a sus preferencias.</p>
+            <a href="#equipo">Conoce al equipo detrás del producto</a>
             <picture>
                 <source media="(max-width: 768px)" srcset="https://picsum.photos/800/400">
                 <source media="(min-width: 769px)" srcset="https://picsum.photos/1600/600">
-                <img src="https://picsum.photos/800/400" alt="Imagen de videojuegos en venta">
+                <img src="https://picsum.photos/800/400" alt="Imagen aleatoria que cambia cada vez que se recarga la página">
             </picture>
-
         </section>
         <section id="problema">
             <h2> Problema </h2>
-        <p>En la actualidad <mark>no existen</mark> sitios webs que vendan videojuegos globalmente tanto <mark>fisicos como digitales.</mark></p>
-        Ademas no todos los sitios ofrecen ventas de copias de videojuegos que han dejado de producirse.
-
+        <p>En la actualidad <mark>no existen</mark> sitios web que vendan videojuegos a nivel global tanto <mark>físicos como digitales</mark>, lo que <mark>limita el acceso</mark> de muchos usuarios a una amplia <mark>variedad de títulos</mark>.</p>
+        <p>Además, no todos los sitios ofrecen <mark>copias de videojuegos</mark> que han dejado de producirse, lo que dificulta a los jugadores <mark>encontrar ediciones antiguas o poco comunes</mark>.</p>
         <blockquote>
-            Anteriormente habia adquirido una copia...
+            <p>"Anteriormente había adquirido una copia de un videojuego que ya no está en producción y presentaba fallos de lectura".</p>
         </blockquote>
         <cite>Usuario premium</cite>
-    
         </section>
         <section id="solucion">
-            <h2> Solucion </h2>
-            Con nuestra pagina permitira a diferentes usuarios adquirir una copia de su juego deseado, incluyendo juegos ya no producidos.
-            <article><h3> Precios accesibles </h3> Nuestros precios estan adaptados para todo tipo de clientes y su economia. </article>
-            <article><h3> Distintas categorias </h3> Contamos con una gran variedad de juegos pensado para cualquier edad. </article> 
-            <article><h3> Garantia  </h3> Contamos con garantia por si tienen algun daño</article> 
-            <video width="500" controls muted>
+            <h2> Solución </h2>
+            <p>Con nuestra página permitirá a diferentes usuarios adquirir una copia de su juego deseado, incluyendo juegos ya no producidos.</p>
+            <article>
+                <h3> Precios accesibles </h3> 
+                <p>Nuestros precios están adaptados para todo tipo de clientes y su economía.</p>
+            </article>
+            <article>
+                <h3> Distintas categorías </h3> 
+                <p>Contamos con una gran variedad de juegos pensados para cualquier edad.</p>
+            </article> 
+            <article>
+                <h3> Garantía de envío </h3> 
+                <p>Contamos con garantía por si tienen algún daño durante la entrega.</p>
+            </article> 
+            <video width="500" controls muted title="Cortometraje animado Big Buck Bunny sobre un conejo en el bosque">
                 <source src="https://dn710604.ca.archive.org/0/items/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4" type="video/mp4">
-                Tu navegador no soporta video HTML5
+                <p>Cortometraje animado de animales, siendo el protagonista un conejo llamado Big Buck Bunny, quien vive en un bosque y se enfrenta a diversos desafíos.</p>
             </video>
         </section>
         <section id="metricas"> 
+            <h2> Métricas </h2>
             <dl>
                 <dt>Usuarios primer año</dt>
                 <dd><data value="1500">1500 personas</data></dd>
-
                 <dt>Tiempo de ahorro</dt>
                 <dd><data value="7200">2 horas/semana</data></dd>
-
                 <dt>Mercado</dt>
                 <dd><data value="50000">USD 50.000</data></dd>
+                <dt>Satisfacción de usuarios</dt><dd><meter min="0" max="100" value="85">85% de satisfacción</meter></dd>
+                <dt>Progreso del proyecto</dt><dd><progress value="60" max="100">60% de completado</progress></dd>
             </dl>
         </section>
         <section id="glosario"> 
+            <h2> Glosario </h2>
             <dl>
                 <dt><dfn>Empresa</dfn></dt>
-                <dd>Organización que ofrece productos o servicios.</dd>
-
+                <dd>
+                    Organización, como una 
+                    <abbr title="Pequeña y Mediana Empresa">PYME</abbr>, 
+                    que ofrece productos o servicios.
+                </dd>
                 <dt><dfn>Videojuego</dfn></dt>
-                <dd>Software interactivo de entretenimiento.</dd>
-
-                <dt><dfn>Categoria</dfn></dt>
-                <dd>Clasificación de videojuegos por tipo o género.</dd>
+                <dd>
+                    Software interactivo de entretenimiento.
+                </dd>
+                <dt><dfn>Categoría</dfn></dt>
+                <dd>
+                    Clasificación de videojuegos por tipo o género.
+                </dd>
             </dl>
         </section>
         <section id="faq"> 
             <h2> FAQ </h2>
-            <details><summary> ¿Cuanto tarda el envio fisico? </summary> Minimo entre 1 dia laborable sin exceder la semana</details>
-            <details><summary> ¿Tiempo minimo de rembolso? </summary> Pasando 2 dias. </details>
-            <details><summary> ¿Metodos de pago? </summary> Solo funcionamos con tarjeta </details>
+            <details>
+                <summary> ¿Cuánto tarda el envío físico? </summary> 
+                Mínimo entre 1 día laborable sin exceder la semana
+            </details>
+            <details>
+                <summary> ¿Tiempo mínimo de reembolso? </summary> 
+                Pasando 2 días. 
+            </details>
+            <details>
+                <summary> ¿Métodos de pago? </summary> 
+                Solo funcionamos con tarjeta. 
+            </details>
         </section>
         <section id="equipo"> 
             <h2> Equipo </h2>
                 <figure>
-                    <img src="https://picsum.photos/200" alt="">
+                    <img src="https://picsum.photos/200" alt="Adonis Mero, conductor del equipo">
                     <figcaption>Adonis Mero, Driver</figcaption>
                 </figure>
-
                 <figure>
-                    <img src="https://picsum.photos/200" alt="">
+                    <img src="https://picsum.photos/200" alt="Tyrone Anchundia, navegante del equipo">
                     <figcaption>Tyrone Anchundia, Navigator</figcaption>
                 </figure>
-                
                 <figure>
-                    <img src="https://picsum.photos/200" alt="">
+                    <img src="https://picsum.photos/200" alt="Anthony Guaman, investigador del equipo">
                     <figcaption>Anthony Guaman, Researcher</figcaption>
                 </figure>
         </section>
