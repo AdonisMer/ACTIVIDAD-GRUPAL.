@@ -310,6 +310,7 @@ html {
     align-items: center;   
     padding: 60px;         
     gap: 40px;             
+    background-color: var(--color-primary);
 }
 
 .titulo-registro {
