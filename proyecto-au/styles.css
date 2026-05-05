@@ -32,7 +32,7 @@
 .container {
     display: flex;  
     flex-direction: row;
-    gap: 20px; 
+    gap: 21px; 
     min-height: 100vh;
     background-color: var(--color-primary);
     padding: var(--spacing-lg);
@@ -353,9 +353,9 @@ html {
 }
 
 .imagen-farmacia {
-    flex: 1; /* Le da un ancho proporcional similar al título. Puedes cambiar a flex: 2 si la quieres más grande */
+    flex: 1;
     display: flex;
-    justify-content: center; /* Centra la imagen dentro de su columna */
+    justify-content: center; 
 }
 
 .imagen-farmacia img {
