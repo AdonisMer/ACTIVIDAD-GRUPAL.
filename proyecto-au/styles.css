@@ -337,11 +337,30 @@ html {
     font-weight: bold;
 }
 .producto3 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 60px 20px;
+    display: flex;         
+    align-items: center;   
+    padding: 60px;         
+    gap: 40px; 
     background-color: var(--color-quaternary);
+}
+
+.titulo-farmacia {
+    font-size: 3.5rem;
+    color: var(--color-text-title);
+    font-family: serif;    
+    margin: 0;
+}
+
+.imagen-farmacia {
+    flex: 1; /* Le da un ancho proporcional similar al título. Puedes cambiar a flex: 2 si la quieres más grande */
+    display: flex;
+    justify-content: center; /* Centra la imagen dentro de su columna */
+}
+
+.imagen-farmacia img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
 }
 #equipo {
     display: flex;
