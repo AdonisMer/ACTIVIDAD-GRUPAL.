@@ -6,14 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Venta global de videojuegos físicos y digitales de distintos géneros">
     <title>PRACTICA 1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap"
+rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="styles-s03.css">
 </head>
 
 <body>
     <header>
-        <nav aria-label="Navegación principal">
-            <a href="#" class="nav-logo">Hola:)</a>
-            <div class="nav-links">
+        <nav class="navbar" aria-label="Navegación principal">
+            <a href="#" class="navbar__logo">Hola:)</a>
+            <div class="navbar__menu">
                 <ul>
                     <li><a href="#hero">Inicio</a></li>
                     <li><a href="#problema">Problema</a></li>
@@ -24,18 +29,19 @@
                     <li><a href="#equipo">Equipo</a></li>
                     <li><a href="#inscripcion">Inscripción</a></li>
                     <li><a href="#premios">Premios</a></li>
-                    <li><a href="#sobre-evento">Sobre Evento</a></li>
+                    <li><a href=".habilidades">Habilidades Técnicas</a></li>
                 </ul>
             </div>
         </nav>
     </header>
     <main>
-        <section id="hero">
-            <h1>Venta global de videojuegos de distintos géneros </h1>
+        <section id="hero" class="hero">
+            <h1 class="hero__title">Venta global de videojuegos de distintos géneros </h1>
+            <h2 class="hero__subtitle">¡Encuentra tu próximo juego favorito con nosotros!</h2>
             <p>En esta página se venderán a nivel global diferentes <strong>videojuegos</strong>, tanto en formato
                 <strong>digital</strong> y <strong>físico</strong>, ofreciendo a los usuarios una <strong>amplia
                     variedad</strong> de opciones adaptadas a sus preferencias.</p>
-            <a href="#equipo">Conoce al equipo detrás del producto</a>
+            <a href="#equipo" class="hero__cta">Conoce al equipo detrás del producto</a>
             <picture>
                 <source media="(max-width: 768px)" srcset="https://picsum.photos/800/400">
                 <source media="(min-width: 769px)" srcset="https://picsum.photos/1600/600">
@@ -239,11 +245,30 @@
             </tfoot>
         </table>
     </section>
-    <section id="sobre-evento">
-        <h2>Sobre el evento</h2>
+    <section class="habilidades">
+        <h2>Habilidades Técnicas</h2>
+        <ul class="habilidades__lista">
+            <li><i class="fa-brands fa-html5"></i> HTML5</li>
+            <li><i class="fa-brands fa-css3-alt"></i> CSS3</li>
+            <li><i class="fa-brands fa-js"></i> JavaScript</li>
+            <li><i class="fa-brands fa-git-alt"></i> Git</li>
+            <li><i class="fa-brands fa-github"></i> GitHub</li>
+        </ul>
     </section>
-    <footer>
-        <p>© 2026 Hackathon ULEAM (evento ficticio — ejercicio de clase)</p>
+    </section>
+    <footer class="footer">
+        <div class="redes">
+            <a href="https://github.com/usuario" target="_blank" rel="noopener" aria-label="GitHub">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://linkedin.com/in/usuario" target="_blank" rel="noopener" arialabel="LinkedIn">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="mailto:correo@uleam.edu.ec" aria-label="Email">
+                <i class="fa-solid fa-envelope"></i>
+            </a>
+        </div>
+        <p>&copy; 2026 · TYRONE · Hecho con HTML, CSS y mucho café</p>
     </footer>
 </body>
 
